@@ -1,0 +1,93 @@
+SET
+GRANT
+GRANT ROLE
+       endereco        | imovelvalor | nomeproprietario  
+-----------------------+-------------+-------------------
+ Paulista, 10          |   $1,980.00 | Roberto Campos
+ Oscar Freire, 171     | $620,000.00 | Roberto Campos
+ Paulista, 161         | $620,000.00 | Roberto Campos
+ das Borboletas, 151   | $420,000.00 | Roberto Campos
+ Mestre Álvaro, 464    | $560,000.00 | Fernanda Costa
+ dos Rovoviários, 474  | $560,000.00 | Fernanda Costa
+ da Harmonia, 454      | $320,000.00 | Fernanda Costa
+ Santa, 575            | $220,000.00 | Ricardo Oliveira
+ Oceânica, 565         | $220,000.00 | Ricardo Oliveira
+ dos Flamboyants, 555  | $300,000.00 | Ricardo Oliveira
+ Abrantes, 777         | $600,000.00 | Henrique Ferreira
+ Lua Nova, 767         | $600,000.00 | Henrique Ferreira
+ dos Bem-te-vis, 757   | $120,000.00 | Henrique Ferreira
+ do Sabiá, 959         | $520,000.00 | Paulo Nogueira
+ Campo da Pólvora, 979 | $460,000.00 | Paulo Nogueira
+ Goiás Central, 969    | $460,000.00 | Paulo Nogueira
+ Bela Vista, 1810      | $200,000.00 | Aline Barros
+ Recife Antigo, 1610   | $360,000.00 | Aline Barros
+ Rotary, 1910          | $200,000.00 | Aline Barros
+ Mestre Samuel, 1710   | $360,000.00 | Aline Barros
+ dos Jacarandás, 1510  | $600,000.00 | Aline Barros
+ dos Canários, 1101    | $420,000.00 | Maria Vieira
+ Buritirana, 191       | $400,000.00 | Maria Vieira
+ Projetada, 181        | $400,000.00 | Maria Vieira
+ do Samba, 4104        | $320,000.00 | Felipe Oliveira
+ Matinha, 494          | $180,000.00 | Felipe Oliveira
+ da Paz, 484           | $180,000.00 | Felipe Oliveira
+ da Alegria, 5105      | $300,000.00 | Pedro Barroso
+ Mafuá, 595            | $340,000.00 | Pedro Barroso
+ Santa, 515            | $340,000.00 | Pedro Barroso
+ Álvaro Otacílio, 797  | $140,000.00 | Hiago Nogueira
+ dos Jasmins, 7107     | $120,000.00 | Hiago Nogueira
+ das Flores, 787       | $140,000.00 | Hiago Nogueira
+ da Matriz, 9109       | $520,000.00 | Pedro Bial
+ Doutor Antônio, 999   | $260,000.00 | Pedro Bial
+ Ipê, 989              | $260,000.00 | Pedro Bial
+ dos Girassóis, 1100   | $600,000.00 | André Temponi
+(37 rows)
+
+ nomecorretor 
+--------------
+(0 rows)
+
+   nomecorretor   | totalimoveisvendidos 
+------------------+----------------------
+ Teresa Nunes     |                    6
+ Patrícia Almeida |                    6
+ Sandra Gomes     |                    6
+ Ana Barbosa      |                    6
+ João Silva       |                    6
+ Carlos Machado   |                    6
+ Rafael Pereira   |                    6
+ Felipe Teixeira  |                    6
+ Maria Fernandes  |                    6
+ Lucas Costa      |                    6
+(10 rows)
+
+    nomecliente    | quantidadenegocios 
+-------------------+--------------------
+ Patricia Souza    |                  3
+ Bianca Fernandes  |                  3
+ Carlos Silva      |                  3
+ Camila Alves      |                  3
+ Juliano Ferreira  |                  3
+ Renê Costa        |                  3
+ Luciano Campos    |                  3
+ João Santos       |                  3
+ Lorenzo Garcia    |                  3
+ Fernando Oliveira |                  3
+ Herica Martins    |                  3
+ Eduardo Ribeiro   |                  3
+ Ana Pereira       |                  3
+ Mariana Lima      |                  3
+ Paula Barros      |                  3
+ Alice Nogueira    |                  3
+ Roberta Souza     |                  3
+ Márcia Prado      |                  3
+ Pedro Melo        |                  3
+ Gustavo Costa     |                  3
+(20 rows)
+
+BEGIN
+DELETE 1
+DELETE 1
+DELETE 1
+ROLLBACK
+REVOKE
+GRANT
