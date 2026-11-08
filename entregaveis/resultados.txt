@@ -1,9 +1,11 @@
 SET
+DROP ROLE
+CREATE ROLE
+CREATE ROLE
 GRANT
 GRANT ROLE
        endereco        | imovelvalor | nomeproprietario  
 -----------------------+-------------+-------------------
- Paulista, 10          |   $1,980.00 | Roberto Campos
  Oscar Freire, 171     | $620,000.00 | Roberto Campos
  Paulista, 161         | $620,000.00 | Roberto Campos
  das Borboletas, 151   | $420,000.00 | Roberto Campos
@@ -40,7 +42,7 @@ GRANT ROLE
  Doutor Antônio, 999   | $260,000.00 | Pedro Bial
  Ipê, 989              | $260,000.00 | Pedro Bial
  dos Girassóis, 1100   | $600,000.00 | André Temponi
-(37 rows)
+(36 rows)
 
  nomecorretor 
 --------------
@@ -85,9 +87,9 @@ GRANT ROLE
 (20 rows)
 
 BEGIN
-DELETE 1
-DELETE 1
-DELETE 1
+DELETE 0
+DELETE 0
+DELETE 0
 ROLLBACK
 REVOKE
 GRANT
